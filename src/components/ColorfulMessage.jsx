@@ -6,7 +6,7 @@ const ColorfulMessage = (props) => {
   console.log(props);
 
   const contentStyle = {
-    color: color, // プロパティ名と変数名が同じ場合は color, のように省略可能
+    color, // プロパティ名と変数名が同じ場合は color, のように省略可能
     fontSize: "18px"
   };
 
